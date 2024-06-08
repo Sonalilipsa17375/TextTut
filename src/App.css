@@ -1,38 +1,83 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  height:60px;
+  background-color: #61dafb;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 2% 2%;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .container{
+  text-align: left;
+  background: #000;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 5%;
+  height: 300px;
+  /* width: 90%; */
+  /* border: 0.3rem solid #61dafb; */
+/* } */ */
+
+/* .ip-field{
+  height: 80%;
+  width: 90%;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+} */
+.summary h1{
+  font-size: large;
+}
+.summary span {
+  color: red;
+}
+
+.container{
+  text-align: left;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  height: 300px;
+  border: 0.3rem solid #61dafb;
+}
+
+.ip-field{
+  height: 80%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.ip-field input {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.up-but{
+  padding: 2% 3%;
+  background-color: blue;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 2% 3%;
+  border-radius: 5%;
 }
