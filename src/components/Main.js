@@ -4,7 +4,11 @@ const Main = () => {
   const handleonchange = (event)=>{
     setText(event.target.value);
   }
-  
+
+  const handleclear = ()=>{
+    let cleartext = "";
+    setText(cleartext);
+  }
   const handleupclick = ()=>{
     let newText = text.toUpperCase();
     setText(newText);
@@ -23,6 +27,7 @@ const Main = () => {
     </div>
     <div>
         <button onClick={handleupclick} className='up-but'>Change To UpperCase</button>
+         <button onClick={handleclear} className='up-but'>Clear Text</button>
     </div>
     <div className='summary'>
   
