@@ -40,14 +40,4 @@ The provided code snippet showcases the core functionality of the application us
 
 ### Contribution
 
-We welcome contributions to improve TextTut! Feel free to fork the repository and submit a pull request with your changes. Please follow general coding conventions and include a brief description of your modifications.
-
-### License
-
-This project is licensed under the MIT License.
-
-### Future Development
-
-* Implement additional text transformation functionalities (lowercase, change case, etc.).
-* Enhance text summarization by providing a brief summary of the text content.
-* Improve the user interface for better aesthetics and usability.
+I welcome contributions to improve TextTut! Feel free to fork the repository and submit a pull request with your changes.
